@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="G:/need/c/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="G:/need/c/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2">
+				<Option output="G:/need/c/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2/fast">
+				<Option output="G:/need/c/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2/fast"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3">
+				<Option output="G:/need/c/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3/fast">
+				<Option output="G:/need/c/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3/fast"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4">
+				<Option output="G:/need/c/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4/fast">
+				<Option output="G:/need/c/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4/fast"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main5">
+				<Option output="G:/need/c/cmake-build-debug/main5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main5"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main5/fast">
+				<Option output="G:/need/c/cmake-build-debug/main5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="f:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 main5/fast"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/need/c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW64/bin/mingw32-make.exe -f &quot;G:/need/c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/need/c/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/need/c/main2.cpp">
+			<Option target="main2"/>
+		</Unit>
+		<Unit filename="G:/need/c/main3.cpp">
+			<Option target="main3"/>
+		</Unit>
+		<Unit filename="G:/need/c/main4.cpp">
+			<Option target="main4"/>
+		</Unit>
+		<Unit filename="G:/need/c/硬件课设.cpp">
+			<Option target="main5"/>
+		</Unit>
+		<Unit filename="G:/need/c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,7 @@
+G:/need/c/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/need/c/cmake-build-debug/CMakeFiles/main.dir
+G:/need/c/cmake-build-debug/CMakeFiles/main2.dir
+G:/need/c/cmake-build-debug/CMakeFiles/main3.dir
+G:/need/c/cmake-build-debug/CMakeFiles/main4.dir
+G:/need/c/cmake-build-debug/CMakeFiles/main5.dir
+G:/need/c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

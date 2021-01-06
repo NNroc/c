@@ -1,0 +1,3 @@
+"F:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\taxi.dir/objects.a
+F:\MinGW64\bin\ar.exe cr CMakeFiles\taxi.dir/objects.a @CMakeFiles\taxi.dir\objects1.rsp
+F:\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\taxi.dir/objects.a -Wl,--no-whole-archive  -o taxi.exe -Wl,--out-implib,libtaxi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\taxi.dir\linklibs.rsp
